@@ -13,7 +13,8 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route path='/' element={<Home />}></Route>
+            <Route path='/cart-redux' element={<Home />} exact></Route>
+            <Route path='/' element={<Home />} exact></Route>
             <Route path='/Cart' element={<Cart />}></Route>
           </Routes>
 
